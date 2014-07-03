@@ -1,5 +1,5 @@
-var React require('react');
-var AsyncComponent require('./component');
+var React = require('react');
+var AsyncComponent = require('./component');
 
 var PreFinal = React.createClass({displayName: 'PreFinal',
     mixins: [AsyncComponent],

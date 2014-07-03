@@ -1,5 +1,5 @@
 var React = require('react');
-var PromiseMixin require('promise-mixin');
+var PromiseMixin = require('promise-mixin');
 
 var Final = React.createClass({
     render: function() {
