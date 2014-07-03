@@ -1,0 +1,8 @@
+{
+  "main": "main",
+  "registry": "jspm",
+  "dependencies": {
+    "promise-mixin": "github:toranb/toranb-react-amd-rsvp-promise-mixin@0.1.2",
+    "npm:react": "^0.10.0"
+  }
+}
