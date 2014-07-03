@@ -28,4 +28,4 @@ var AsyncComponent = {
   }
 };
 
-export default AsyncComponent;
+module.exports = AsyncComponent;

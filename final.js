@@ -1,5 +1,5 @@
-import React from 'react';
-import PromiseMixin from 'promise-mixin';
+var React = require('react');
+var PromiseMixin require('promise-mixin');
 
 var Final = React.createClass({
     render: function() {
@@ -22,4 +22,4 @@ var Final = React.createClass({
     }
 });
 
-export default Final;
+module.exports = Final;
