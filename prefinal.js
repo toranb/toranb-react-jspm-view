@@ -7,7 +7,7 @@ var PreFinal = React.createClass({displayName: 'PreFinal',
       if (this.constructor.loadedComponent) {
         return;
       }
-      System.import("github:toranb/toranb-react-jspm-view@0.1.7/final")
+      System.import("github:toranb/toranb-react-jspm-view@0.1.9/final")
       .then(function(cjs_module) {
         return cjs_module;
       })
