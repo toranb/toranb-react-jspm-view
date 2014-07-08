@@ -7,17 +7,13 @@ var PreFinal = React.createClass({displayName: 'PreFinal',
       if (this.constructor.loadedComponent) {
         return;
       }
-      System.import("github:toranb/toranb-react-jspm-view@0.1.6/final")
-      .then(function(es6_module) {
-        return es6_module.default;
+      System.import("github:toranb/toranb-react-jspm-view@0.1.7/final")
+      .then(function(cjs_module) {
+        return cjs_module;
       })
       .then(function(component) {
         self.constructor.loadedComponent = component;
         self.forceUpdate();
-      })
-      .catch(function(e) {
-        console.log("error loading the final module");
-        console.log(e);
       });
     },
 
