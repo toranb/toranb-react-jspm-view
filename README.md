@@ -7,10 +7,10 @@ how to build a new jspm library like this
     mv rsvp.js rsvp.js.js
     cd -
 
-    jspm bundle final wat.js
+    jspm bundle final bundle.js
     
-    //next open wat.js and manually remove any react@0.10 System.register block
-    //notice we don't bundle prefinal because it's included in the original bundle of the consumer
+    //next open bundle.js file and manually remove any react@0.10 System.register block
+    //notice we don't bundle prefinal because it's included in the initial bundle
 
 The intent behind this module (long term) is to show how jspm can bundle without react
 
