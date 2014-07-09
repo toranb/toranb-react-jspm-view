@@ -1,7 +1,6 @@
 how to build a new jspm library like this
 
     jspm install
-    jspm install rsvp=github:tildeio/rsvp.js@3.0.7 -o "{main: 'lib/rsvp.js'}"
 
     cd jspm_packages/github/tildeio/rsvp.js@3.0.7
     mv rsvp.js rsvp.js.js
@@ -18,3 +17,4 @@ The intent behind this module (long term) is to show how jspm can bundle without
 
     jspm install promise-mixin=github:toranb/toranb-react-amd-rsvp-promise-mixin@0.1.2
     jspm install react=npm:react@0.10.0
+    jspm install rsvp=github:tildeio/rsvp.js@3.0.7 -o "{main: 'lib/rsvp.js'}"
