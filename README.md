@@ -9,7 +9,8 @@ how to build a new jspm library like this
     jspm bundle final bundle.js
     
     //next open bundle.js file and manually remove any react@0.10 System.register block
-    //notice we don't bundle prefinal because it's included in the initial bundle
+    //finally rename the "final" module name to the full name used to reference it
+    //github:toranb/toranb-react-jspm-view@0.2.2/final
 
 The intent behind this module (long term) is to show how jspm can bundle without react
 

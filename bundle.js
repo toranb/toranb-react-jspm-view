@@ -1697,7 +1697,7 @@ System.register("github:toranb/toranb-react-amd-rsvp-promise-mixin@0.1.2", ["git
   return module.exports;
 });
 
-System.register("final", ["react","promise-mixin"], true, function(require, exports, __moduleName) {
+System.register("github:toranb/toranb-react-jspm-view@0.2.2/final", ["react","promise-mixin"], true, function(require, exports, __moduleName) {
   var global = System.global;
   var __define = global.define;
   global.define = undefined;
